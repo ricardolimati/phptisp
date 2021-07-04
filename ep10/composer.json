@@ -1,0 +1,15 @@
+{
+  "name": "ricardolima/ep10",
+  "description": "UPLOAD DE IMAGENS E ARQUIVOS COM UPLOADER",
+  "minimum-stability": "stable",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Ricardo Lima",
+      "email": "ricardodreamsites@gmail.com"
+    }
+  ],
+  "require": {
+    "coffeecode/uploader": "1.0.*"
+  }
+}

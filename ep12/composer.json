@@ -1,0 +1,27 @@
+{
+  "name": "ricardolimati/ep12",
+  "description": "MANIPULANDO DADOS EM ARQUIVO CSV COM PHP",
+  "minimum-stability": "stable",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Ricardo Lima",
+      "email": "ricardodreamsites@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Source\\": "source/"
+    }
+  },
+  "files": [
+    "source/Config"
+  ],
+  "require": {
+    "php": "^7.3",
+    "ext-pdo": "*",
+    "coffeecode/datalayer": "1.1.*",
+    "fzaninotto/faker": "1.8.*",
+    "league/csv": "9.3.*"
+  }
+}

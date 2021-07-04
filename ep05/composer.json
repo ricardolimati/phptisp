@@ -1,0 +1,26 @@
+{
+  "name": "ricardolimati/phptips004",
+  "description": "Gerando Paginação de Resultados - BLOG ! PHP Tips #005",
+  "minimum-stability": "stable",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Ricardo Lima",
+      "email": "ricardodreamsites@gmail.com",
+      "role": "Developer"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Source\\": "source/"
+    },
+    "files": [
+      "source/Config.php"
+    ]
+  },
+  "require": {
+    "fzaninotto/faker": "1.9.2",
+    "coffeecode/datalayer":"1.1.8",
+    "coffeecode/paginator":"1.0.*"   
+  }
+}

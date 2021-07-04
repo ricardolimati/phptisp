@@ -1,0 +1,16 @@
+{
+  "name": "ricardolima/phptipsep08",
+  "description": "GERANDO MINIATURAS DE IMAGENS COM CROPPER",
+  "minimum-stability": "stable",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Ricardo Lima",
+      "email": "ricardodreamsites@gmail.com"
+    }
+  ],
+  "require": {
+    "fzaninotto/faker": "1.8.*",
+    "coffeecode/cropper": "1.2.*"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "name": "ricardolimati/phptips004",
+  "description": "Login Social via Facebook com Oauth 2 Client ! PHP Tips #006",
+  "minimum-stability": "stable",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Ricardo Lima",
+      "email": "ricardodreamsites@gmail.com",
+      "role": "Developer"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Source\\": "source/"
+    },
+    "files": [
+      "source/Config.php"
+    ]
+  },
+  "require": {
+    "league/oauth2-facebook": "2.0.*"
+  }
+}

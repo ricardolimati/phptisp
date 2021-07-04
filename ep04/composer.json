@@ -1,0 +1,24 @@
+{
+  "name": "ricardolimati/phptips004",
+  "description": "Rotas, Call Backs e Estrutura MVC com Router ! PHP Tips #004",
+  "minimum-stability": "stable",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Ricardo Lima",
+      "email": "ricardodreamsites@gmail.com",
+      "role": "Developer"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Source\\": "source/"
+    },
+    "files": [
+      "source/Config.php"
+    ]
+  },
+  "require": {
+    "coffeecode/router": "1.0.*"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "name": "ricardolimati/ep11",
+  "description": "LOG, ALERTAS E MONITORAMENTO COM MONOLOG",
+  "minimum-stability": "stable",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Ricardo Lima",
+      "email": "ricardodreamsites@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Source\\": "source/"
+    },
+    "files": [
+      "source/Config.php"
+    ]
+  },
+  "require": {
+    "monolog/monolog": "2.0.*"
+  }
+}
